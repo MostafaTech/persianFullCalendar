@@ -20,3 +20,17 @@ $(function () {
     });
 });
 ```
+
+notes
+-----
+
+- if you are not using Bootstarp just set the **box-sizing** to **border-box** for calendar container
+
+```css
+#cal {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+```
+
