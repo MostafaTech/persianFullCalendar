@@ -3,7 +3,7 @@ persianFullCalendar
 
 Persian Full Calendar for Jquery>=1.8  And Bootstarp 3.0
 
-[there is an online preview available on rawgit](https://rawgit.com/MostafaTech/persianFullCalendar/master/index.html)
+[there is an online preview available by rawgit](https://rawgit.com/MostafaTech/persianFullCalendar/master/index.html)
 
 Implemention
 ------------
@@ -33,8 +33,7 @@ $(function () {
 
 Some notes
 -----
-
-- if you are not using Bootstarp just set the **box-sizing** to **border-box** for calendar container
+if you are not using Bootstarp just set the `box-sizing: border-box` for calendar container
 
 ```css
 #cal {
@@ -44,3 +43,6 @@ Some notes
 }
 ```
 
+Thanks
+------
+this plugin is based on [behzadi/persianDatepicker](https://github.com/behzadi/persianDatepicker)
