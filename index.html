@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FullCalendarTest</title>
+    <script src="jquery-1.10.1.min.js"></script>
+    <link href="1fonts.css" rel="stylesheet" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <script src="persianFullCalendar.js"></script>
+    <link href="persianFullCalendar.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(function () {
+            $('#cal').persianDatepicker({
+                dates: ['1393/06/16', '1393/06/16', '1393/06/25'],
+                onSelect: function (value) {
+                    alert(value);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div style="width: 370px; height: 330px; margin:30px auto;">
+        <div id="cal">
+        </div>
+    </div>
+</body>
+</html>

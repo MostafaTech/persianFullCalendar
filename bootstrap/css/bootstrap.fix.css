@@ -1,0 +1,22 @@
+﻿
+.input-sm {
+    padding: 5px;
+}
+
+.panel-heading { font-size: 20px; }
+.panel-body { padding: 10px; font-size: 13px; }
+
+.page-header {
+    margin-top: 10px;
+}
+
+.modal-dialog {
+    margin-top: 50px;
+}
+.modal-header {
+    font-size: 22px;
+}
+.modal-footer {
+    text-align: right;
+}
+
