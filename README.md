@@ -46,3 +46,8 @@ if you are not using Bootstarp just set the `box-sizing: border-box` for calenda
 Thanks
 ------
 this plugin is based on [behzadi/persianDatepicker](https://github.com/behzadi/persianDatepicker)
+
+
+> **if you use this in your projects, please let me know**
+
+> mostafaTech@gmail.com
